@@ -1,6 +1,6 @@
 # julien-deoux.github.io
 
-A simple website to list all my socials.
+A one-page composer portfolio website, nothing fancy.
 
 ## Perdu.e ?
 

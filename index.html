@@ -6,100 +6,153 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Listen to Julien Déoux' music">
   <link rel="stylesheet" href="style.css">
-  <title>Julien Déoux - Composer</title>
+  <title>Julien Déoux - Composer / Producer</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="language-selection">
-      <a class="language-option" href="#" id="fr-select">
-        <img src="images/flags/fr.svg" height="12px" /> FR
-      </a>
-      /
-      <a class="language-option language-option--selected" href="#" id="en-select">
-        <img src="images/flags/gb.svg" height="12px" /> EN
-      </a>
-    </div>
-    <div class="id">
-      <h1 class="name">Julien Déoux</h1>
-      <p class="summary" id="summary">25 year-old French composer</p>
-    </div>
+  <header class="top-banner">
+      <div class="title">
+        <h1 class="name">Julien Déoux</h1>
+        <li class="summary">
+          <ul class="summary-title">Composer</ul><ul class="summary-title">Producer</ul>
+        </li>
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/julien.deoux" class="social social--instagram">
+          <div class="fab fa-instagram"></div>
+        </a>
+        <a href="https://www.youtube.com/channel/UCIibZ-r7mfCqf-UfFhZ2DzQ" class="social social--youtube">
+          <div class="fab fa-youtube"></div>
+        </a>
+        <a href="https://julien-deoux.bandcamp.com" class="social social--bandcamp">
+          <div class="fab fa-bandcamp"></div>
+        </a>
+        <a href="https://open.spotify.com/artist/35MX509YKrFtZypf6coFwW" class="social social--spotify">
+          <div class="fab fa-spotify"></div>
+        </a>
+        <a href="https://www.twitch.tv/lem4ki" class="social social--twitch">
+          <div class="fab fa-twitch"></div>
+        </a>
+      </div>
   </header>
   <main class="main">
-    <section class="link-column">
-      <h2 class="link-column__prompt" id="listen-prompt">Listen</h2>
-      <ul class="link-column__links">
-        <li class="link-column__link">
-          <a class="link link--youtube" href="https://www.youtube.com/channel/UCIibZ-r7mfCqf-UfFhZ2DzQ">
-            <div class="fab fa-youtube link-icon"></div>
-            <div class="website">
-              <h3 class="website__name">Youtube</h3>
-            </div>
-          </a>
-        </li>
-        <li class="link-column__link">
-          <a class="link link--spotify" href="https://open.spotify.com/artist/35MX509YKrFtZypf6coFwW">
-            <div class="fab fa-spotify link-icon"></div>
-            <div class="website">
-              <h3 class="website__name">Spotify</h3>
-            </div>
-          </a>
-        </li>
-      </ul>
+    <section class="preview">
+      <div class="preview-description">
+        New album coming out this summer
+      </div>
+      <div class="preview-embed" id="preview-embed">
+        <iframe
+          id="preview-iframe"
+          style="width: 100%; max-width: 920px;"
+          src="https://www.youtube-nocookie.com/embed/8OmgqEeGoiU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </section>
-    <section class="link-column">
-      <h2 class="link-column__prompt" id="download-prompt">Download</h2>
-      <ul class="link-column__links">
-        <li class="link-column__link">
-          <a class="link link--bandcamp" href="https://julien-deoux.bandcamp.com">
-            <div class="fab fa-bandcamp link-icon"></div>
-            <div class="website">
-              <h3 class="website__name">Bandcamp</h3>
-              <div class="website__description" id="bandcamp-description">Free</div>
-            </div>
-          </a>
-        </li>
-        <li class="link-column__link">
-          <a class="link link--itunes" href="https://music.apple.com/us/artist/julien-d%C3%A9oux/1548432543">
-            <div class="fab fa-itunes link-icon"></div>
-            <div class="website">
-              <h3 class="website__name">Apple Music</h3>
-            </div>
-          </a>
-        </li>
-        <li class="link-column__link">
-          <a class="link link--amazon"
-            href="https://www.amazon.com/s?k=Julien+D%C3%A9oux&i=digital-music&search-type=ss&ref=ntt_srch_drd_B08SR3FHW4">
-            <div class="fab fa-amazon link-icon"></div>
-            <div class="website">
-              <h3 class="website__name">Amazon</h3>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section class="link-column">
-      <h2 class="link-column__prompt" id="follow-prompt">Follow</h2>
-      <ul class="link-column__links">
-        <li class="link-column__link">
-          <a class="link link--instagram" href="https://www.instagram.com/julien.deoux">
-            <div class="fab fa-instagram link-icon"></div>
-            <div class="website">
-              <h3 class="website__name">Instagram</h3>
-            </div>
-          </a>
-        </li>
-        <li class="link-column__link">
-          <a class="link link--twitch" href="https://www.twitch.tv/lem4ki">
-            <div class="fab fa-twitch link-icon"></div>
-            <div class="website">
-              <h3 class="website__name">Twitch</h3>
-            </div>
-          </a>
-        </li>
-      </ul>
+    <section class="portfolio">
+      <h1 class="portfolio-title">Portfolio</h1>
+      <article class="work">
+        <h2 class="work-name">Past (2021)</h2>
+        <div class="work-description">
+          I made a cool pad in Vital and then stuff happened.
+        </div>
+        <div class="work-embed">
+          <iframe
+            style="border: 0; width: 100%; height: 120px;"
+            src="https://bandcamp.com/EmbeddedPlayer/album=1514439740/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
+            seamless
+          >
+            <a href="https://julien-deoux.bandcamp.com/album/past">Past by Julien Déoux</a>
+          </iframe>
+        </div>
+        <div class="work-links">
+          <div class="work-link">
+            <a href="https://open.spotify.com/album/7jb7u9HH5PkjhRgK4byu3x?si=DPFjGWIOTbqDjpmq1SVHTA">listen on Spotify</a>
+          </div><div class="work-link">
+            <a href="https://youtu.be/gjLNkqkL15A">listen on Youtube</a>
+          </div><div class="work-link">
+            <a href="https://music.apple.com/us/album/past-single/1548444394?uo=4">listen on Apple Music</a>
+          </div><div class="work-link">
+            <a href="http://www.amazon.com/gp/product/B08SQ74PNM">get on Amazon</a>
+          </div>
+        </div>
+      </article>
+      <article class="work">
+        <h2 class="work-name">Orbital (2020)</h2>
+        <div class="work-description">
+          My first release since 2016's Noise on a black canvas, Orbital is a simple trance song with some orchestral elements spersed in.
+          The intro track Lift Off was inspired by Black Mesa's soundtrack by Joel Nielsen, where some songs where reversed and slowed down to produce ambient textures.
+        </div>
+        <div class="work-embed">
+          <iframe
+            style="border: 0; width: 100%; height: 208px;"
+            src="https://bandcamp.com/EmbeddedPlayer/album=3752328462/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
+            seamless
+          >
+            <a href="https://julien-deoux.bandcamp.com/album/orbital">Orbital by Julien Déoux</a>
+          </iframe>
+        </div>
+        <div class="work-links">
+          <div class="work-link">
+            <a href="https://open.spotify.com/album/1lFOJLSHptCd2g3KOCPzrP?si=zzbGJeUoR--LuXsfW4cqlw">listen on Spotify</a>
+          </div><div class="work-link">
+            <a href="https://www.youtube.com/watch?v=uKQyQyPeDV4&list=OLAK5uy_mw96mT1mlm44VfxVwZSqCmRFeROE6blsg">listen on Youtube</a>
+          </div><div class="work-link">
+            <a href="https://music.apple.com/us/album/orbital-single/1549691424?uo=4">listen on Apple Music</a>
+          </div><div class="work-link">
+            <a href="http://www.amazon.com/gp/product/B08TCH35HN">buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+      <article class="work">
+        <h2 class="work-name">Hiraeth (2020)</h2>
+        <div class="work-description">
+          In early 2020, a friend of mine made an environmental 3D animation as a school project, and asked me to write a soundtrack for it.
+          That video is not available on the Internet, but the music I made is.
+        </div>
+        <div class="work-embed">
+          <iframe
+            style="width: 100%; max-width: 720px; height: 200px;"
+            src="https://www.youtube-nocookie.com/embed/HdNGCI2xrv8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+      <article class="work">
+        <h2 class="work-name">Noise on a black canvas (2016)</h2>
+        <div class="work-description">
+          This is an electronic / ambient album I made after falling in love with the Chimera VST instruments, which generates its sound from white noise.
+          White noise quickly became a major part of this record, hence its name.
+        </div>
+        <div class="work-embed">
+          <iframe
+            style="border: 0; width: 100%; height: 439px;"
+            src="https://bandcamp.com/EmbeddedPlayer/album=2447588098/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/"
+            seamless>
+            <a href="https://julien-deoux.bandcamp.com/album/noise-on-a-black-canvas">Noise on a black canvas by Julien Déoux</a>
+          </iframe>
+        </div>
+        <div class="work-links">
+          <div class="work-link">
+            <a href="https://open.spotify.com/album/5bIlN0nJ6PVVj5uSVcS6aq?si=4h2hbaQCQtGoUaZ282QO7w">listen on Spotify</a>
+          </div><div class="work-link">
+            <a href="https://www.youtube.com/watch?v=WhDEp-VsUho&list=OLAK5uy_nZ6PaJdcQ1nRk1mIz7HldyWRPGHT-wRZs&index=1">listen on Youtube</a>
+          </div><div class="work-link">
+            <a href="https://music.apple.com/us/album/noise-on-a-black-canvas/1549753262?uo=4">listen on Apple Music</a>
+          </div><div class="work-link">
+            <a href="http://www.amazon.com/gp/product/B08TGSSJZP">buy on Amazon</a>
+          </div>
+        </div>
+      </article>
     </section>
   </main>
+  <footer></footer>
 
   <script src="script.js"></script>
 </body>
